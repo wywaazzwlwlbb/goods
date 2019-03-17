@@ -1,0 +1,13 @@
+header{width: 990px;margin: auto;height: 120px;}
+header .logo{float: left;margin: 32px 10px 0 0;width: 125px;height: 56px;
+background: url(https://css.gomein.net.cn/gmpro/1.0.0/public/1.0.0/css/i/logo.png) 0 0 no-repeat;}
+header .logo i{display:inline-block;width: 300px;height: 62px;background: url(https://css.gomein.net.cn/images/regfront/register/registerlogo.png) no-repeat;}
+#main{height: 480px;background: #eea2a2;}
+#main .back{width: 1200px;margin: auto;height: 480px;background: url(https://gfs11.gomein.net.cn/T1gxKQBKhv1RCvBVdK.jpg);}
+.box{width: 500px;height: 350px;margin:50px 0 0 650px;background: #fff;overflow: hidden;position: relative;}
+h1{text-align: center;font-size: 40px;}
+form{width:430px;margin:40px auto;}
+input{margin: 15px 0;}
+#btn{margin-left: 30px;border: none;background: #C3E6CB;width: 50px;height: 30px;box-shadow: 0px 0px 5px #CCC;}
+#login{margin-left: 250px;border: none;background: #C3E6CB;width: 50px;height: 30px;box-shadow: 0px 0px 5px #CCC;}    	
+#msg{display:none;position: absolute;left: 0;top: 0;right:0;bottom:0;margin:auto;width: 150px;height: 150px;background: rgba(0,0,0,.1);text-align: center;line-height: 150px;}

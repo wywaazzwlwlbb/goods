@@ -1,0 +1,261 @@
+#main .head {
+  height: 120px; }
+
+#main .h2 {
+  background: #ff2400 ;
+  height: 40px; }
+  #main .h2 li {
+    float: left; }
+  #main .h2 li:hover{
+  	background: #bc0808;
+  }
+    #main .h2 li a {
+      display: block;
+      padding: 0 20px;
+      font: 16px/40px "";
+      color: #fff; }
+
+#main .h3 {
+  background: #f6f6f6;
+  margin-bottom: 16px;
+  height: 42px; }
+  #main .h3 ul {
+    width: 450px;
+    float: left;
+    padding: 8px 6px; }
+    #main .h3 ul li {
+      float: left; }
+      #main .h3 ul li a {
+        font-size: 12px;
+        color: #666;
+        display: inline-block;
+        padding: 4px 0 4px 8px;
+        vertical-align: middle; }
+      #main .h3 ul li .active {
+        width: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      #main .h3 ul li:hover a {
+        color: red; }
+      #main .h3 ul li i {
+        display: inline-block;
+        vertical-align: middle;
+        width: 7px;
+        height: 11px;
+        margin: 0 2px;
+        background: url(https://css.gomein.net.cn/gmpro/2.0.0/item/1.12.18/css/i/bg-sprite.png?__sprite) no-repeat; }
+  #main .h3 .r {
+    float: right;
+    padding: 12px 0; }
+    #main .h3 .r a {
+      margin-left: 20px;
+      float: left; }
+      #main .h3 .r a:hover {
+        color: #e3101e; }
+      #main .h3 .r a i {
+        float: left;
+        width: 16px;
+        height: 15px;
+        background: url(https://css.gomein.net.cn/gmpro/2.0.0/item/1.12.18/css/i/bg-sprite.png?__sprite) no-repeat;
+        background-position: 0 -100px;
+        margin-right: 5px; }
+      #main .h3 .r a span {
+        font-size: 13px; }
+      #main .h3 .r a .i1 {
+        width: 21px;
+        height: 20px;
+        background-position: 0 -167px; }
+    #main .h3 .r .s1 {
+      color: #fff;
+      background: #e3101e;
+      padding: 0 4px;
+      font-size: 12px;
+      float: right;
+      margin-left: 5px; }
+
+#main .cont {
+  width: 1000px;
+  margin: auto;
+  position: relative; }
+  #main .cont .l {
+    width: 500px;
+    float: left; }
+    #main .cont .l .c-l {
+      float: left;
+      margin-bottom: 10px;
+      width: 450px;
+      position: relative;
+      border: 1px solid #d9d9d9; }
+      #main .cont .l .c-l img{
+        display: none; }
+      #main .cont .l .c-l img:nth-child(1) {
+        display: block; }
+      #main .cont .l .c-l .s2 {
+        width: 200px;
+        height: 200px;
+        background: rgba(0, 0, 0, 0.2);
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        display: none; }
+      #main .cont .l .c-l p {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 2; }
+    #main .cont .l .d2 {
+      width: 450px;
+      height: 450px;
+      position: absolute;
+      left: 480px;
+      overflow: hidden;
+      border: 1px solid #d9d9d9;
+      display: none;
+      background: #fff; }
+      #main .cont .l .d2 img {
+        position: absolute;
+        z-index: 5; }
+      #main .cont .l .d2 img:nth-child(1) {
+        z-index: 9; }
+    #main .cont .l .u1 {
+      width: 450px;
+      height: 60px;
+      margin: 20px 0 16px;
+      padding-left: 20px; }
+      #main .cont .l .u1 li {
+        width: 60px;
+        height: 60px;
+        margin-right: 25px;
+        float: left;
+        border: 1px solid #d9d9d9; }
+  #main .cont .r {
+    width: 500px;
+    float: right; }
+    #main .cont .r .r-t {
+      padding-bottom: 16px; }
+      #main .cont .r .r-t h1 {
+        font: 600 16px/26px "";
+        color: #666;
+        padding-top: 5px; }
+      #main .cont .r .r-t h4 {
+        font: 12px/20px "";
+        color: #e3101e; }
+    #main .cont .r .img {
+      overflow: hidden; }
+    #main .cont .r .price {
+      padding: 20px 10px 18px 20px;
+      background: #f6f6f6; }
+      #main .cont .r .price .s4 {
+        line-height: 34px;
+        padding-bottom: 18px; }
+      #main .cont .r .price .s5 {
+        display: inline-block;
+        font: 700 24px/34px "";
+        margin: 0 10px 0 15px;
+        color: #E3101E; }
+      #main .cont .r .price del {
+        margin-right: 10px;
+        color: #666; 
+        text-decoration: line-through;}
+      #main .cont .r .price .s6 {
+        color: #069; }
+    #main .cont .r .main {
+      padding-left: 20px; }
+      #main .cont .r .main .m-t {
+        font: 12px/12px "";
+        color: #5e5e5e; }
+        #main .cont .r .main .m-t .tese {
+          margin-top: 20px;
+          height: 20px; }
+          #main .cont .r .main .m-t .tese .p2 {
+            float: left;
+            color: #888;
+            margin-right: 23px;
+            line-height: 20px; }
+          #main .cont .r .main .m-t .tese .t {
+            float: left;
+            padding: 3px 10px 3px 17px;
+            border: 1px solid #61819f;
+            margin-right: 16px;
+            position: relative;
+            border-left: 0; }
+            #main .cont .r .main .m-t .tese .t em {
+              background: url(https://css.gomein.net.cn/gmpro/2.0.0/item/1.12.18/css/i/bg-sprite.png?__sprite) no-repeat;
+              background-position: 0 -2527px;
+              width: 8px;
+              height: 20px;
+              display: inline-block;
+              position: absolute;
+              left: -8px;
+              top: -1px; }
+            #main .cont .r .main .m-t .tese .t b {
+              background: url(https://css.gomein.net.cn/gmpro/2.0.0/item/1.12.18/css/i/bg-sprite.png?__sprite) no-repeat;
+              background-position: 0 -2557px;
+              padding: 8px;
+              position: absolute;
+              top: 1px;
+              left: -6px; }
+            #main .cont .r .main .m-t .tese .t .b2 {
+              background-position: 0 -2635px; }
+            #main .cont .r .main .m-t .tese .t .b3 {
+              background-position: 0 -2583px; }
+            #main .cont .r .main .m-t .tese .t a {
+              color: #61819f; }
+          #main .cont .r .main .m-t .tese .s7 {
+            line-height: 20px;
+            color: #888; }
+            #main .cont .r .main .m-t .tese .s7 b {
+              color: #000; }
+        #main .cont .r .main .m-t .color {
+          margin-top: 20px;
+          line-height: 38px; }
+          #main .cont .r .main .m-t .color .p2 {
+            float: left;
+            color: #888;
+            margin-right: 23px;
+            width: 24px; }
+          #main .cont .r .main .m-t .color .s7 {
+            float: left;
+            margin: 0 7px 7px 0;
+            padding: 0 10px;
+            border: 1px solid #e5e5e5; }
+    #main .cont .r .car {
+      padding-left: 20px;
+      margin: 90px 0 10px 0; }
+      #main .cont .r .car .a1 {
+        float: left;
+        padding: 8px 25px;
+        background: #e3101e;
+        color: #fff;
+        font: 18px/22px "";
+        margin-right: 8px; }
+      #main .cont .r .car .a2 {
+        float: left;
+        padding: 11px 0;
+        width: 98px;
+        color: #5e5e5e;
+        font-size: 12px;
+        border: 1px solid #ccc;
+        position: relative; }
+        #main .cont .r .car .a2 b {
+          padding: 8px 14px;
+          margin: 0 8px 0 6px;
+          background: url(https://css.gomein.net.cn/gmpro/2.0.0/item/1.12.18/css/i/bg-sprite.png?__sprite) no-repeat;
+          background-position: 0 -2812px; }
+        #main .cont .r .car .a2 .ma {
+          display: none;
+          width: 98px;
+          border: 1px solid #ccc;
+          border-top: none;
+          position: absolute;
+          background: #fff;
+          top: 37px;
+          left: -1px; }
+          #main .cont .r .car .a2 .ma img {
+            margin-left: 4px; }
+        #main .cont .r .car .a2:hover .ma {
+          display: block; }

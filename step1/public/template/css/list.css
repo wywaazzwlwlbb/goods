@@ -1,0 +1,12 @@
+#main{background: rgb(176,19,35);}
+#main .top{height: 600px;background: url(https://gfs13.gomein.net.cn/T1o6CQBvA_1RCvBVdK.jpg) no-repeat top;}
+#main .bottom{width: 1000px;margin: 0 auto;}
+#main .bottom .l{width: 240px;float: left;margin: 5px;background: #fff;text-align: center;}
+#main .bottom .l a{font: 12px/20px "";color: #333;}
+#main .bottom .l a img{display: block;margin: 15px auto;width: 210px;height: 210px;}
+#main .bottom .l a h3{font: bold 16px/20px "";width: 96%;margin: auto;}
+#main .bottom .l a .money{height: 46px;background: #f0f0f0;margin-top: 20px;}
+#main .bottom .l a .money span.s1{height:46px;float: left;font: 16px/46px "";color: #ed093a;margin-left: 5px;}
+#main .bottom .l a .money span.s1 b{font: 700 30px/46px "";}
+#main .bottom .l a .money span.s1 small{font: 700 25px/46px "";}
+#main .bottom .l a .money .s2{width: 86px;height: 46px;background: #ffdc00;font: 16px/46px "";color: #110f00;float: right;}
